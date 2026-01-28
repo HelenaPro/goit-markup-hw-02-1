@@ -123,7 +123,6 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    text-align: center;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
   }
@@ -133,15 +132,7 @@
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
   }
-  /*---------PROJECTS--------*/
-  .work-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--primary-text-color);
-  }
+    
   /*---------TEAM--------*/
   .team-title {
     font-size: 36px;
@@ -151,6 +142,14 @@
     text-transform: capitalize;
     color: var(--primary-text-color);
   }
+  .suptitle-team {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+  }
   .job-text {
     font-size: 16px;
     line-height: 1.5;
@@ -158,31 +157,8 @@
     letter-spacing: 0.02em;
     color: var(--accent-color);
   }
-  /*---------FOOTER--------*/
-  .footer {
-    background-color: var(--hero-footer-background-color);
-  }
-  .logo-footer {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--logo-footer-color);
-  }
-  .footer-studio {
-    color: var(--text-footer-color);
-  }
-  .text-footer {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--text-footer-color);
-   }
-  /*---------PORTFOLIO--------*/
-  
+
+/*---------PORTFOLIO--------*/
   .our-portfolio {
     font-weight: 700;
     font-size: 36px;
@@ -214,3 +190,27 @@
     background-color: var(--portfolio-background);
     border: none;
   }
+  /*---------FOOTER--------*/
+  .footer {
+    background-color: var(--hero-footer-background-color);
+  }
+  .logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-footer-color);
+  }
+  .footer-studio {
+    color: var(--text-footer-color);
+  }
+  .text-footer {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-footer-color);
+   }
+  
